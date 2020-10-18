@@ -25,7 +25,7 @@ def _identity(x):
 
 
 def _shapes(pytree):
-  return map(jnp.shape, jax.tree_leaves(pytree))
+  return list(map(jnp.shape, jax.tree_leaves(pytree)))
 
 
 class _MINRESNorms(NamedTuple):
