@@ -5,9 +5,7 @@ install_requires = ['numpy', 'scipy', 'absl-py', 'jax', 'jaxlib', 'hypothesis']
 setup(
     name='fax',
     version='0.0.4',
-    packages=find_namespace_packages(
-        include=['*', 'fax.*']
-    ),
+    packages=find_namespace_packages(include=['*', 'fax.*']),
     url='',
     license='',
     author='Clement Gehring',
