@@ -6,8 +6,7 @@ setup(
     name='fax',
     version='0.0.4',
     packages=find_namespace_packages(
-        include=['*', 'fax.*'],
-        exclude=["*.tests", "*.tests.*", "tests.*", "tests"]
+        include=['*', 'fax.*']
     ),
     url='',
     license='',
